@@ -1,0 +1,11 @@
+# Netlify 設定ファイル
+# このリポジトリを Netlify に連携すると自動的にこの設定が使われます
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
