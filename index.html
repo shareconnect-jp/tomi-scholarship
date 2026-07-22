@@ -1272,51 +1272,72 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="section clearfix">
           <style>
-          .sch-support{background:#fff;border:1px solid #efe6d6;border-left:6px solid #c9a170;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.06);padding:22px 24px;margin-bottom:18px}
-          .sch-support-head{display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap}
-          .sch-support-badge{background:#c9a170;color:#fff;font-weight:bold;font-size:15px;border-radius:999px;padding:4px 16px;line-height:1.6;white-space:nowrap}
-          .sch-support-title{font-weight:bold;color:#44290e;font-size:17px;line-height:1.45}
-          .sch-support-body{font-size:14px;line-height:1.9;margin:0 0 14px}
-          .sch-support-meta{display:flex;flex-wrap:wrap;gap:8px}
-          .sch-support-tag{background:#fff5e5;color:#5a4632;border-radius:10px;padding:6px 13px;font-size:13px;line-height:1.5}
-          .sch-support-tag b{color:#e8761a;margin-right:6px}
+          .sch-support{background:#fff;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.10);overflow:hidden;margin-bottom:22px}
+          .sch-support-head{display:flex;align-items:center;gap:12px;padding:15px 24px;flex-wrap:wrap}
+          .sch-support-badge{background:rgba(255,255,255,.22);color:#fff;font-weight:bold;font-size:14px;border-radius:999px;padding:5px 16px;white-space:nowrap;border:1.5px solid rgba(255,255,255,.75)}
+          .sch-support-title{font-weight:bold;color:#fff;font-size:18px;line-height:1.4}
+          .sch-support-inner{padding:22px 26px}
+          .sch-support-body{font-size:14.5px;line-height:1.95;margin:0 0 16px;color:#333}
+          .sch-support-key{font-weight:bold;color:#44290e;padding:3px 6px;border-radius:5px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+          .sch-support-meta{border-radius:12px;padding:14px 16px}
+          .sch-support-row{font-size:14px;line-height:1.7;margin:0;color:#3a2c1e}
+          .sch-support-row + .sch-support-row{margin-top:8px}
+          .sch-support-lbl{display:inline-block;color:#fff;font-weight:bold;font-size:12px;border-radius:7px;padding:3px 8px;margin-right:10px;text-align:center;min-width:84px;vertical-align:2px}
+          .sch-support.s1 .sch-support-head{background:#e8761a}
+          .sch-support.s1 .sch-support-key{background:#fce2c8}
+          .sch-support.s1 .sch-support-meta{background:#fdf3e8}
+          .sch-support.s1 .sch-support-lbl{background:#e8761a}
+          .sch-support.s2 .sch-support-head{background:#2a9991}
+          .sch-support.s2 .sch-support-key{background:#d3efeb}
+          .sch-support.s2 .sch-support-meta{background:#e8f6f4}
+          .sch-support.s2 .sch-support-lbl{background:#2a9991}
+          .sch-support.s3 .sch-support-head{background:#b8860b}
+          .sch-support.s3 .sch-support-key{background:#efe6c9}
+          .sch-support.s3 .sch-support-meta{background:#f7f1e0}
+          .sch-support.s3 .sch-support-lbl{background:#b8860b}
           </style>
           <h4>あなたに合った3つのサポート制度</h4>
           <p>ご状況に合わせて、3つのサポートからご利用いただけます。JASSO（日本学生支援機構）の奨学金との併用も可能です。</p>
 
-          <div class="sch-support">
+          <div class="sch-support s1">
             <div class="sch-support-head">
               <span class="sch-support-badge">サポート1</span>
               <span class="sch-support-title">医院独自の奨学金制度</span>
             </div>
-            <p class="sch-support-body">学費（実費）を貸与します。<span class="txt-B">常勤5年間（60ヶ月）の勤務で、借りた金額に関係なく全額返済免除</span>となります。</p>
-            <div class="sch-support-meta">
-              <span class="sch-support-tag"><b>対象</b>学生</span>
-              <span class="sch-support-tag"><b>こんな方に</b>とみ歯科でそのまま歯科衛生士として働きたい方</span>
+            <div class="sch-support-inner">
+              <p class="sch-support-body">学費（実費）を貸与します。<span class="sch-support-key">常勤5年間（60ヶ月）の勤務で、借りた金額に関係なく全額返済免除</span>となります。</p>
+              <div class="sch-support-meta">
+                <p class="sch-support-row"><span class="sch-support-lbl">対象</span>学生</p>
+                <p class="sch-support-row"><span class="sch-support-lbl">こんな方に</span>とみ歯科でそのまま歯科衛生士として働きたい方</p>
+              </div>
             </div>
           </div>
 
-          <div class="sch-support">
+          <div class="sch-support s2">
             <div class="sch-support-head">
               <span class="sch-support-badge">サポート2</span>
               <span class="sch-support-title">医院独自の奨学金 ＋ JASSO返還支援制度</span>
             </div>
-            <p class="sch-support-body">医院独自の奨学金に加え、<span class="txt-B">JASSO（日本学生支援機構）の返還支援制度</span>もご利用いただけます。医院独自の奨学金とJASSO奨学金の、両方のサポートを受けられます。</p>
-            <div class="sch-support-meta">
-              <span class="sch-support-tag"><b>対象</b>学生</span>
-              <span class="sch-support-tag"><b>こんな方に</b>JASSO奨学金を利用予定の方</span>
+            <div class="sch-support-inner">
+              <p class="sch-support-body">医院独自の奨学金に加え、<span class="sch-support-key">JASSO（日本学生支援機構）の返還支援制度</span>もご利用いただけます。医院独自の奨学金とJASSO奨学金の、両方のサポートを受けられます。</p>
+              <div class="sch-support-meta">
+                <p class="sch-support-row"><span class="sch-support-lbl">対象</span>学生</p>
+                <p class="sch-support-row"><span class="sch-support-lbl">こんな方に</span>JASSO奨学金を利用予定の方</p>
+              </div>
             </div>
           </div>
 
-          <div class="sch-support">
+          <div class="sch-support s3">
             <div class="sch-support-head">
               <span class="sch-support-badge">サポート3</span>
               <span class="sch-support-title">JASSO返還支援制度（代理返還制度）</span>
             </div>
-            <p class="sch-support-body">JASSO奨学金を返還中の方を対象とした福利厚生制度です。<span class="txt-B">医院が本人に代わって、毎月JASSOへ直接返還（代理返還）</span>を行います。</p>
-            <div class="sch-support-meta">
-              <span class="sch-support-tag"><b>対象</b>既卒者・正規職員</span>
-              <span class="sch-support-tag"><b>こんな方に</b>すでにJASSO奨学金を利用している方</span>
+            <div class="sch-support-inner">
+              <p class="sch-support-body">JASSO奨学金を返還中の方を対象とした福利厚生制度です。<span class="sch-support-key">医院が本人に代わって、毎月JASSOへ直接返還（代理返還）</span>を行います。</p>
+              <div class="sch-support-meta">
+                <p class="sch-support-row"><span class="sch-support-lbl">対象</span>既卒者・正規職員</p>
+                <p class="sch-support-row"><span class="sch-support-lbl">こんな方に</span>すでにJASSO奨学金を利用している方</p>
+              </div>
             </div>
           </div>
 
