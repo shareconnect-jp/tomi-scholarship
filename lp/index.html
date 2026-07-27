@@ -6,6 +6,28 @@
 <meta name="format-detection" content="telephone=no">
 <title>名古屋市の不用品回収｜即日回収・最短30分で駆けつけます！回収費用15,000円〜</title>
 <meta name="description" content="名古屋市・近郊エリアの不用品回収なら即日対応！最短30分で駆けつけます。回収費用15,000円〜、LINEで写真を送るだけで最短5分でお見積もり。お見積もり・出張費・キャンセル無料、追加料金なし。土日祝も年中無休で対応。">
+<meta name="theme-color" content="#d7000f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="名古屋市の不用品回収｜即日回収・最短30分で駆けつけます！回収費用15,000円〜">
+<meta property="og:description" content="LINEで写真を送るだけで最短5分でお見積もり。お見積もり・出張費・キャンセル無料、追加料金なし。土日祝も年中無休で対応。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="4" y="22" width="34" height="24" rx="3" fill="%23d7000f"/><path d="M38 28h12l8 9v9H38z" fill="%23f08080"/><circle cx="16" cy="48" r="6" fill="%23333"/><circle cx="48" cy="48" r="6" fill="%23333"/></svg>'>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "名古屋不用品回収センター",
+  "description": "名古屋市・近郊エリア対応の不用品回収サービス。即日回収・最短30分で駆けつけます。回収費用15,000円〜。",
+  "telephone": "+81-120-000-000",
+  "openingHours": "Mo-Su 08:00-20:00",
+  "priceRange": "¥15,000〜",
+  "areaServed": [
+    {"@type": "City", "name": "名古屋市"},
+    {"@type": "State", "name": "愛知県"}
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
@@ -195,6 +217,15 @@ ul{list-style:none}
 .btn .t-sub{display:block;font-size:12px;font-weight:700;opacity:.95}
 .btn-line{background:linear-gradient(180deg,#12d366,var(--green) 55%,var(--green-dark))}
 .btn-tel{background:linear-gradient(180deg,#ff3b3b,var(--red) 55%,var(--red-dark))}
+.btn-tel .icon{animation:ring 2.6s ease-in-out infinite;transform-origin:50% 20%}
+@keyframes ring{
+  0%,72%,100%{transform:rotate(0)}
+  76%{transform:rotate(-9deg)}80%{transform:rotate(8deg)}
+  84%{transform:rotate(-6deg)}88%{transform:rotate(4deg)}92%{transform:rotate(0)}
+}
+@media(prefers-reduced-motion:reduce){
+  .btn::after,.btn-tel .icon,.phone{animation:none}
+}
 .btn .icon{flex:0 0 auto;width:42px;height:42px}
 .tel-number{font-family:var(--num);font-size:clamp(20px,3vw,26px);letter-spacing:.02em}
 
@@ -467,6 +498,8 @@ details[open] .faq-q::after{transform:translateY(-30%) rotate(-135deg)}
   border-top:1px dashed var(--line-gray);padding-top:12px;margin:0 14px 14px;
   padding-left:0;padding-right:0;
 }
+details[open] .faq-a{animation:faqFade .35s ease}
+@keyframes faqFade{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 .qa-mark{
   flex:0 0 24px;width:24px;height:24px;border-radius:6px;color:#fff;font-weight:900;
   font-size:13px;display:flex;align-items:center;justify-content:center;font-family:var(--num);
@@ -646,7 +679,7 @@ details[open] .faq-q::after{transform:translateY(-30%) rotate(-135deg)}
     <!-- 料金バナー -->
     <div class="price-banner">
       <span class="label">回収費用</span>
-      <span class="price"><span class="num">15,000</span><span class="unit">円〜</span></span>
+      <span class="price"><span class="num" id="fvPrice" data-count="15000">15,000</span><span class="unit">円〜</span></span>
       <span class="tax">(税込)</span>
       <span class="note">※内容により変動いたします</span>
     </div>
@@ -1117,6 +1150,22 @@ details[open] .faq-q::after{transform:translateY(-30%) rotate(-135deg)}
   };
   window.addEventListener('scroll',toggle,{passive:true});
   toggle();
+})();
+// FVの料金カウントアップ演出
+(function(){
+  var el=document.getElementById('fvPrice');
+  if(!el)return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var target=parseInt(el.getAttribute('data-count'),10)||15000;
+  var dur=900,start=null;
+  var ease=function(t){return 1-Math.pow(1-t,3)};
+  var step=function(ts){
+    if(start===null)start=ts;
+    var p=Math.min((ts-start)/dur,1);
+    el.textContent=Math.round(target*ease(p)).toLocaleString('ja-JP');
+    if(p<1)requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
 })();
 </script>
 </body>
