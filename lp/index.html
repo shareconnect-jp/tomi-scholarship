@@ -1,0 +1,1123 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>名古屋市の不用品回収｜即日回収・最短30分で駆けつけます！回収費用15,000円〜</title>
+<meta name="description" content="名古屋市・近郊エリアの不用品回収なら即日対応！最短30分で駆けつけます。回収費用15,000円〜、LINEで写真を送るだけで最短5分でお見積もり。お見積もり・出張費・キャンセル無料、追加料金なし。土日祝も年中無休で対応。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================
+   名古屋 不用品回収LP
+   ========================================================== */
+:root{
+  --red:#d7000f;
+  --red-dark:#b30000;
+  --yellow:#ffe33f;
+  --yellow-deep:#ffd400;
+  --green:#06c755;
+  --green-dark:#04a648;
+  --navy:#1e2a44;
+  --ink:#222222;
+  --cream:#fdf8ec;
+  --paper:#ffffff;
+  --line-gray:#e5e0d4;
+  --orange:#f08300;
+  --blue:#2e6bd7;
+  --kei-green:#2ea44f;
+  --shadow:0 6px 18px rgba(30,30,30,.10);
+  --radius:14px;
+  --font:"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --num:"Oswald","Noto Sans JP",sans-serif;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.7;
+  font-feature-settings:"palt";
+  -webkit-text-size-adjust:100%;
+  overflow-x:hidden;
+}
+img,svg{max-width:100%;height:auto;vertical-align:middle}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+.inner{max-width:1060px;margin:0 auto;padding:0 16px}
+.section{padding:56px 0}
+@media(max-width:768px){.section{padding:40px 0}}
+
+/* section title */
+.sec-title{
+  text-align:center;
+  font-size:clamp(22px,4.2vw,32px);
+  font-weight:900;
+  letter-spacing:.04em;
+  margin-bottom:32px;
+  position:relative;
+}
+.sec-title::after{
+  content:"";display:block;width:64px;height:4px;border-radius:2px;
+  background:var(--red);margin:10px auto 0;
+}
+@media(max-width:768px){.sec-title{margin-bottom:22px}}
+
+/* reveal animation */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.is-visible{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+}
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+.hero{
+  background:
+    radial-gradient(circle at 85% 10%, #fff7d6 0%, transparent 45%),
+    linear-gradient(180deg,#fffdf4 0%, var(--cream) 100%);
+  padding:26px 0 42px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::before{
+  content:"";position:absolute;inset:auto -10% -40% -10%;height:60%;
+  background:radial-gradient(ellipse at center,#fff3bf 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:18px;
+  align-items:start;
+  position:relative;
+}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+.area-badge{
+  display:inline-block;
+  background:var(--navy);color:#fff;
+  font-weight:700;font-size:15px;letter-spacing:.06em;
+  padding:6px 18px;border-radius:999px;
+  margin-bottom:14px;
+}
+.hero-catch{
+  font-weight:900;line-height:1.12;letter-spacing:.01em;
+}
+.hero-catch .big{
+  display:block;
+  font-size:clamp(52px,9.4vw,96px);
+  color:var(--red);
+  text-shadow:3px 3px 0 #fff,6px 6px 0 rgba(215,0,15,.12);
+}
+.hero-catch .sub{
+  display:block;
+  font-size:clamp(28px,5.2vw,50px);
+  color:var(--ink);
+  margin-top:4px;
+}
+.hero-catch .sub em{
+  font-style:normal;color:var(--red);
+  font-size:1.35em;font-family:var(--num);letter-spacing:.02em;
+}
+.hero-visual{
+  position:relative;
+  display:flex;justify-content:flex-end;align-items:flex-start;
+  gap:0;
+  min-height:340px;
+}
+.hero-illust{
+  width:min(430px,88%);
+  filter:drop-shadow(0 14px 26px rgba(40,30,0,.16));
+  margin-top:8px;
+}
+@media(max-width:860px){
+  .hero-visual{justify-content:center;min-height:0;margin-top:10px}
+  .hero-illust{width:min(400px,94%)}
+}
+
+/* price banner */
+.price-banner{
+  margin-top:22px;
+  background:linear-gradient(180deg,#fff04e,var(--yellow-deep));
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:16px 22px 14px;
+  display:flex;align-items:center;justify-content:center;gap:16px;
+  flex-wrap:wrap;
+  position:relative;
+  border:3px solid #fff;
+  outline:2px solid #f2c500;
+}
+.price-banner .label{
+  font-weight:900;font-size:clamp(18px,3vw,26px);letter-spacing:.06em;
+}
+.price-banner .price{
+  color:var(--red);font-weight:900;line-height:1;
+  display:flex;align-items:baseline;gap:2px;
+}
+.price-banner .price .num{
+  font-family:var(--num);font-size:clamp(50px,7.5vw,72px);letter-spacing:.01em;
+}
+.price-banner .price .unit{font-size:clamp(22px,3.4vw,30px)}
+.price-banner .tax{font-size:12px;font-weight:700;color:#7a5b00;align-self:flex-start;margin-top:6px}
+.price-banner .note{
+  flex-basis:100%;text-align:center;font-size:12px;font-weight:500;color:#6b5300;margin-top:-4px;
+}
+
+/* CTA buttons */
+.cta-row{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px;
+}
+@media(max-width:640px){.cta-row{grid-template-columns:1fr}}
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  border-radius:14px;padding:14px 18px;
+  color:#fff;font-weight:900;text-align:center;
+  box-shadow:0 6px 0 rgba(0,0,0,.18),var(--shadow);
+  transition:transform .15s ease,box-shadow .15s ease,filter .15s ease;
+  position:relative;overflow:hidden;
+}
+.btn:hover{transform:translateY(3px);box-shadow:0 3px 0 rgba(0,0,0,.18),var(--shadow);filter:brightness(1.05)}
+.btn::after{
+  content:"";position:absolute;top:0;left:-70%;width:40%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);
+  transform:skewX(-20deg);
+  animation:shine 3.4s ease-in-out infinite;
+}
+@keyframes shine{0%,60%{left:-70%}100%{left:130%}}
+.btn .t-main{display:block;font-size:clamp(17px,2.6vw,21px);line-height:1.3;letter-spacing:.03em}
+.btn .t-sub{display:block;font-size:12px;font-weight:700;opacity:.95}
+.btn-line{background:linear-gradient(180deg,#12d366,var(--green) 55%,var(--green-dark))}
+.btn-tel{background:linear-gradient(180deg,#ff3b3b,var(--red) 55%,var(--red-dark))}
+.btn .icon{flex:0 0 auto;width:42px;height:42px}
+.tel-number{font-family:var(--num);font-size:clamp(20px,3vw,26px);letter-spacing:.02em}
+
+/* feature badges */
+.features{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px;
+}
+@media(max-width:860px){.features{grid-template-columns:repeat(2,1fr)}}
+.feature{
+  background:var(--paper);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:16px 10px 14px;text-align:center;
+  border-top:4px solid var(--red);
+}
+.feature .f-icon{width:52px;height:52px;margin:0 auto 6px;display:block}
+.feature h3{font-size:15.5px;font-weight:900;letter-spacing:.02em}
+.feature p{font-size:12.5px;font-weight:700;color:#c1272d;margin-top:2px}
+
+/* ==========================================================
+   PHONE MOCKUP (LINE estimate flow)
+   ========================================================== */
+.phone{
+  position:absolute;right:-6px;top:-4px;
+  width:212px;background:#111;border-radius:34px;
+  padding:12px 9px 14px;
+  box-shadow:0 18px 40px rgba(0,0,0,.28);
+  animation:float 4.5s ease-in-out infinite;
+  z-index:2;
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.phone::before{
+  content:"";position:absolute;top:12px;left:50%;transform:translateX(-50%);
+  width:72px;height:18px;background:#111;border-radius:0 0 12px 12px;z-index:3;
+}
+.phone-screen{
+  background:#f4f6f8;border-radius:24px;overflow:hidden;
+  font-size:10.5px;line-height:1.4;
+}
+.phone-head{
+  background:var(--green);color:#fff;text-align:center;
+  font-weight:900;font-size:11.5px;padding:22px 6px 7px;letter-spacing:.02em;
+}
+.phone-body{padding:9px 10px 12px;text-align:center}
+.phone-body .lead{font-weight:900;font-size:11px;margin-bottom:7px}
+.phone-body .lead em{color:var(--red);font-style:normal;font-size:1.25em}
+.p-step{
+  background:#fff;border-radius:9px;padding:7px 8px;box-shadow:0 2px 6px rgba(0,0,0,.08);
+  font-weight:700;text-align:left;display:flex;align-items:center;gap:7px;
+}
+.p-step .n{
+  flex:0 0 auto;width:16px;height:16px;border-radius:50%;
+  background:var(--green);color:#fff;font-size:10px;font-weight:900;
+  display:flex;align-items:center;justify-content:center;
+}
+.p-arrow{color:var(--green);font-weight:900;line-height:1;padding:3px 0;font-size:12px}
+.p-price{
+  background:#fff;border:2px solid var(--yellow-deep);border-radius:10px;
+  padding:5px 6px;font-weight:900;position:relative;
+}
+.p-price .yen{color:var(--red);font-family:var(--num);font-size:20px;line-height:1.1}
+.p-price .yen small{font-size:11px;font-family:var(--font)}
+.p-price::before,.p-price::after{
+  content:"";position:absolute;top:50%;width:14px;height:2px;background:var(--yellow-deep);
+}
+.p-price::before{left:-18px;transform:rotate(24deg)}
+.p-price::after{right:-18px;transform:rotate(-24deg)}
+.p-thumb{width:44px;height:32px;border-radius:5px;flex:0 0 auto}
+@media(max-width:860px){
+  .phone{position:static;margin:-40px auto 0;animation:none;order:2}
+  .hero-visual{flex-direction:column;align-items:center}
+}
+
+/* ==========================================================
+   ITEMS
+   ========================================================== */
+.sec-items{background:var(--paper)}
+.items-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:14px;
+}
+@media(max-width:860px){.items-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.items-grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+.item-card{
+  background:#fbfaf6;border:1px solid var(--line-gray);border-radius:12px;
+  padding:14px 8px 10px;text-align:center;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.item-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.item-card svg{width:64px;height:64px;display:block;margin:0 auto 6px}
+.item-card .name{font-weight:900;font-size:14px}
+.items-note{
+  text-align:center;margin-top:20px;font-weight:700;
+  background:var(--cream);border-radius:999px;display:table;padding:8px 26px;
+  margin-left:auto;margin-right:auto;border:1px dashed #d8c98f;
+}
+.items-note em{font-style:normal;color:var(--red)}
+
+/* ==========================================================
+   PRICING
+   ========================================================== */
+.pricing-grid{
+  display:grid;grid-template-columns:repeat(3,1fr) 232px;gap:14px;align-items:stretch;
+}
+@media(max-width:960px){.pricing-grid{grid-template-columns:repeat(3,1fr)}.pricing-side{grid-column:1/-1}}
+@media(max-width:680px){.pricing-grid{grid-template-columns:1fr}}
+.price-card{
+  background:var(--paper);border-radius:var(--radius);box-shadow:var(--shadow);
+  overflow:hidden;text-align:center;display:flex;flex-direction:column;
+  transition:transform .2s ease;
+}
+.price-card:hover{transform:translateY(-4px)}
+.price-card .head{
+  color:#fff;font-weight:900;font-size:18px;letter-spacing:.08em;padding:9px 6px;
+}
+.price-card.kei .head{background:var(--kei-green)}
+.price-card.t1 .head{background:var(--orange)}
+.price-card.t2 .head{background:var(--blue)}
+.price-card .truck{padding:18px 18px 6px;flex:1;display:flex;align-items:center;justify-content:center}
+.price-card .truck svg{width:100%;max-width:210px;height:auto}
+.price-card .cap{font-size:12px;font-weight:700;color:#666}
+.price-card .p-label{font-weight:900;font-size:14px;margin-top:8px}
+.price-card .p-val{color:var(--red);font-weight:900;line-height:1;padding-bottom:4px}
+.price-card .p-val .num{font-family:var(--num);font-size:clamp(34px,4.4vw,44px)}
+.price-card .p-val .unit{font-size:18px}
+.price-card .p-note{font-size:11px;color:#888;padding:0 8px 14px}
+.pricing-side{display:flex;flex-direction:column;gap:12px}
+.free-box{
+  background:var(--paper);border:2px solid var(--yellow-deep);border-radius:var(--radius);
+  padding:16px 16px;flex:1;box-shadow:var(--shadow);
+}
+.free-box li{
+  font-weight:900;font-size:15.5px;padding:7px 0 7px 30px;position:relative;
+  border-bottom:1px dashed var(--line-gray);
+}
+.free-box li:last-child{border-bottom:none}
+.free-box li::before{
+  content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:20px;height:20px;border-radius:50%;
+  background:var(--kei-green);
+  -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 14.5-4.3-4.3 1.7-1.7 2.6 2.6 5.8-5.8 1.7 1.7-7.5 7.5z"/></svg>') center/contain no-repeat;
+  mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 14.5-4.3-4.3 1.7-1.7 2.6 2.6 5.8-5.8 1.7 1.7-7.5 7.5z"/></svg>') center/contain no-repeat;
+}
+.free-box li em{font-style:normal;color:var(--red)}
+.consult-box{
+  background:linear-gradient(180deg,#ff3b3b,var(--red));
+  color:#fff;border-radius:var(--radius);text-align:center;
+  font-weight:900;font-size:16.5px;padding:14px 10px;line-height:1.5;
+  box-shadow:var(--shadow);
+  transition:filter .2s ease;
+}
+a.consult-box:hover{filter:brightness(1.1)}
+.pricing-foot-note{text-align:center;font-size:12.5px;color:#777;margin-top:16px}
+
+/* ==========================================================
+   CASES (before/after)
+   ========================================================== */
+.sec-cases{background:var(--paper)}
+.cases-wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:start}
+@media(max-width:900px){.cases-wrap{grid-template-columns:1fr}}
+.block-title{
+  font-size:clamp(19px,2.8vw,24px);font-weight:900;margin-bottom:18px;
+  padding-left:14px;border-left:6px solid var(--red);line-height:1.3;
+}
+.case-row{
+  display:grid;grid-template-columns:1fr 34px 1fr 130px;gap:8px;align-items:center;
+  margin-bottom:18px;
+}
+@media(max-width:560px){
+  .case-row{grid-template-columns:1fr 26px 1fr;row-gap:6px}
+  .case-info{grid-column:1/-1;display:flex;align-items:baseline;gap:12px;justify-content:center}
+}
+.ba-fig{position:relative;border-radius:10px;overflow:hidden;box-shadow:var(--shadow);line-height:0}
+.ba-fig .tag{
+  position:absolute;top:0;left:0;color:#fff;font-weight:900;font-size:11.5px;
+  padding:3px 12px;border-radius:0 0 10px 0;letter-spacing:.05em;line-height:1.6;
+}
+.ba-fig .tag.before{background:#3d3d3d}
+.ba-fig .tag.after{background:var(--orange)}
+.case-arrow{color:var(--kei-green);text-align:center}
+.case-arrow svg{width:100%;max-width:30px}
+.case-info{text-align:left}
+.case-info .type{font-weight:900;font-size:14.5px;line-height:1.4}
+.case-info .fee{font-size:11px;font-weight:700;color:#666;display:block;margin-top:4px}
+.case-info .yen{color:var(--red);font-weight:900;font-family:var(--num);font-size:26px;line-height:1.1}
+.case-info .yen small{font-family:var(--font);font-size:13px}
+.cases-note{font-size:12px;color:#888;margin-top:4px}
+
+/* voices */
+.voice-card{
+  background:#fbfaf6;border:1px solid var(--line-gray);border-radius:var(--radius);
+  padding:16px;display:flex;gap:14px;margin-bottom:14px;box-shadow:0 3px 10px rgba(30,30,30,.05);
+}
+.voice-card .avatar{flex:0 0 58px;width:58px;height:58px;border-radius:50%;overflow:hidden;background:#e8f0e4}
+.voice-card .stars{color:#f5a623;font-size:15px;letter-spacing:2px}
+.voice-card .who{font-size:12.5px;font-weight:700;color:#666;margin-left:8px}
+.voice-card p{font-size:13.5px;margin-top:5px;line-height:1.75}
+
+/* ==========================================================
+   FLOW
+   ========================================================== */
+.flow-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:8px;align-items:stretch;
+  counter-reset:flow;
+}
+@media(max-width:860px){.flow-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}}
+.flow-step{
+  background:var(--paper);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:38px 12px 18px;text-align:center;position:relative;
+}
+.flow-step::before{
+  counter-increment:flow;content:counter(flow);
+  position:absolute;top:-14px;left:50%;transform:translateX(-50%);
+  width:34px;height:34px;border-radius:50%;
+  background:var(--red);color:#fff;font-weight:900;font-family:var(--num);font-size:17px;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 8px rgba(215,0,15,.35);
+  border:3px solid #fff;
+}
+.flow-step:not(:last-child)::after{
+  content:"";position:absolute;right:-11px;top:50%;transform:translateY(-50%);
+  border-left:11px solid var(--kei-green);
+  border-top:9px solid transparent;border-bottom:9px solid transparent;
+  z-index:1;
+}
+@media(max-width:860px){
+  .flow-step{margin-top:18px}
+  .flow-step:not(:last-child)::after{
+    right:auto;left:50%;top:auto;bottom:-15px;transform:translateX(-50%) rotate(90deg);
+  }
+}
+.flow-step h3{font-size:15px;font-weight:900;line-height:1.4;min-height:2.6em;display:flex;align-items:center;justify-content:center}
+.flow-step .f-icon{width:66px;height:66px;margin:8px auto}
+.flow-step p{font-size:12.5px;font-weight:700;color:#555;line-height:1.6}
+.flow-step p em{font-style:normal;color:var(--red)}
+
+/* ==========================================================
+   AREA & FAQ
+   ========================================================== */
+.sec-area-faq{background:var(--paper)}
+.area-faq-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:38px;align-items:start}
+@media(max-width:900px){.area-faq-grid{grid-template-columns:1fr}}
+.area-head-badge{
+  display:inline-block;background:var(--kei-green);color:#fff;font-weight:900;
+  font-size:16.5px;padding:7px 18px;border-radius:8px;letter-spacing:.04em;
+  box-shadow:var(--shadow);
+}
+.area-lead{font-weight:900;font-size:17px;margin-top:12px}
+.area-lead em{font-style:normal;color:var(--kei-green)}
+.area-cities{font-size:13px;color:#555;font-weight:500;margin-top:4px;line-height:1.9}
+.area-map{margin-top:14px;position:relative}
+.area-map svg{width:100%;max-width:440px;display:block;margin:0 auto}
+
+.faq-item{
+  background:#fbfaf6;border:1px solid var(--line-gray);border-radius:12px;
+  margin-bottom:12px;overflow:hidden;
+}
+.faq-q{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:13px 40px 13px 14px;font-weight:900;font-size:15px;cursor:pointer;
+  position:relative;list-style:none;
+}
+.faq-q::-webkit-details-marker{display:none}
+.faq-q::after{
+  content:"";position:absolute;right:16px;top:50%;
+  width:10px;height:10px;border-right:3px solid var(--red);border-bottom:3px solid var(--red);
+  transform:translateY(-70%) rotate(45deg);transition:transform .25s ease;
+}
+details[open] .faq-q::after{transform:translateY(-30%) rotate(-135deg)}
+.faq-a{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:0 14px 14px;font-size:14px;color:#444;
+  border-top:1px dashed var(--line-gray);padding-top:12px;margin:0 14px 14px;
+  padding-left:0;padding-right:0;
+}
+.qa-mark{
+  flex:0 0 24px;width:24px;height:24px;border-radius:6px;color:#fff;font-weight:900;
+  font-size:13px;display:flex;align-items:center;justify-content:center;font-family:var(--num);
+  margin-top:1px;
+}
+.qa-mark.q{background:var(--red)}
+.qa-mark.a{background:var(--kei-green)}
+
+/* ==========================================================
+   FOOTER CTA
+   ========================================================== */
+.footer-cta{
+  background:linear-gradient(180deg,#fff04e,var(--yellow-deep));
+  padding:38px 0 46px;
+  border-top:6px solid var(--red);
+}
+.footer-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:26px;align-items:center}
+@media(max-width:860px){.footer-grid{grid-template-columns:1fr}}
+.footer-left{display:flex;gap:18px;align-items:center}
+@media(max-width:560px){.footer-left{flex-direction:column;text-align:center}}
+.footer-van{flex:0 0 150px;width:150px}
+.footer-copy h2{font-size:clamp(19px,3vw,24px);font-weight:900;line-height:1.4}
+.footer-badges{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+@media(max-width:560px){.footer-badges{justify-content:center}}
+.footer-badges span{
+  background:var(--red);color:#fff;font-weight:900;font-size:12.5px;
+  padding:4px 12px;border-radius:999px;
+}
+.footer-price{font-weight:900;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+@media(max-width:560px){.footer-price{justify-content:center}}
+.footer-price .lbl{font-size:17px}
+.footer-price .num{font-family:var(--num);font-size:clamp(40px,6vw,54px);color:var(--red);line-height:1}
+.footer-price .unit{font-size:20px;color:var(--red)}
+.footer-price .tax{font-size:11px;color:#7a5b00;font-weight:700}
+.footer-right{display:flex;flex-direction:column;gap:12px}
+.copyright{
+  background:var(--navy);color:#cfd6e4;text-align:center;
+  font-size:12px;padding:14px 16px calc(14px + 74px);
+}
+@media(min-width:769px){.copyright{padding-bottom:14px}}
+
+/* ==========================================================
+   STICKY MOBILE CTA
+   ========================================================== */
+.sticky-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  display:none;grid-template-columns:1fr 1fr;gap:8px;
+  padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(6px);
+  box-shadow:0 -4px 16px rgba(0,0,0,.14);
+  transform:translateY(110%);transition:transform .35s ease;
+}
+.sticky-cta.is-shown{transform:none}
+@media(max-width:768px){.sticky-cta{display:grid}}
+.sticky-cta .btn{padding:9px 8px;border-radius:11px;gap:8px;box-shadow:0 3px 0 rgba(0,0,0,.16)}
+.sticky-cta .btn::after{display:none}
+.sticky-cta .icon{width:28px;height:28px}
+.sticky-cta .t-main{font-size:14.5px}
+.sticky-cta .t-sub{font-size:10px}
+</style>
+</head>
+<body>
+
+<!-- ==========================================================
+     HERO
+     ========================================================== -->
+<header class="hero">
+  <div class="inner">
+    <div class="hero-grid">
+      <div>
+        <span class="area-badge">名古屋市・近郊エリア対応</span>
+        <h1 class="hero-catch">
+          <span class="big">即日回収!</span>
+          <span class="sub">最短<em>30</em>分で<br>駆けつけます!</span>
+        </h1>
+      </div>
+
+      <div class="hero-visual">
+        <!-- 【イラスト】スタッフ（バンの前で段ボールを持つ作業員） -->
+        <svg class="hero-illust" viewBox="0 0 430 360" role="img" aria-label="不用品回収スタッフ">
+          <!-- van body -->
+          <rect x="18" y="14" width="394" height="316" rx="20" fill="#eceff1"/>
+          <rect x="18" y="14" width="394" height="34" rx="17" fill="#dfe4e8"/>
+          <rect x="52" y="56" width="326" height="252" rx="10" fill="#3c4250"/>
+          <rect x="52" y="56" width="326" height="252" rx="10" fill="url(#vanShade)"/>
+          <defs>
+            <linearGradient id="vanShade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#4a5160"/><stop offset="1" stop-color="#2e3340"/>
+            </linearGradient>
+            <linearGradient id="boxG" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#d8ab77"/><stop offset="1" stop-color="#c1955f"/>
+            </linearGradient>
+          </defs>
+          <!-- cargo inside -->
+          <rect x="70" y="196" width="86" height="70" rx="5" fill="#8d6e4a"/>
+          <rect x="70" y="196" width="86" height="16" rx="5" fill="#7a5d3d"/>
+          <rect x="96" y="150" width="60" height="50" rx="5" fill="#a5824f"/>
+          <rect x="300" y="176" width="62" height="90" rx="5" fill="#8d6e4a"/>
+          <rect x="300" y="176" width="62" height="18" rx="5" fill="#7a5d3d"/>
+          <rect x="284" y="128" width="52" height="52" rx="5" fill="#a5824f"/>
+          <!-- floor -->
+          <rect x="52" y="264" width="326" height="44" rx="8" fill="#565d6d"/>
+          <!-- worker -->
+          <g>
+            <!-- torso -->
+            <path d="M150 356c0-58 26-88 65-88s65 30 65 88z" fill="#274a9e"/>
+            <path d="M150 356c0-58 26-88 65-88s65 30 65 88z" fill="url(#poloShade)"/>
+            <defs>
+              <linearGradient id="poloShade" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2e56b6"/><stop offset="1" stop-color="#1f3d85"/>
+              </linearGradient>
+            </defs>
+            <!-- collar -->
+            <path d="M197 268l18 16 18-16-8-8h-20z" fill="#fff"/>
+            <!-- neck -->
+            <rect x="203" y="248" width="24" height="24" rx="8" fill="#eeb98c"/>
+            <!-- head -->
+            <circle cx="215" cy="216" r="38" fill="#f7c99b"/>
+            <!-- ears -->
+            <circle cx="177" cy="218" r="7" fill="#f0bd8b"/>
+            <circle cx="253" cy="218" r="7" fill="#f0bd8b"/>
+            <!-- cap -->
+            <path d="M177 208c0-22 17-38 38-38s38 16 38 38z" fill="#1f3d85"/>
+            <path d="M177 208h76v6a6 6 0 0 1-6 6h-64a6 6 0 0 1-6-6z" fill="#274a9e"/>
+            <path d="M253 206h26a6 6 0 0 1 0 12h-26z" fill="#16295c"/>
+            <!-- face -->
+            <circle cx="200" cy="224" r="4" fill="#3a2a1c"/>
+            <circle cx="230" cy="224" r="4" fill="#3a2a1c"/>
+            <path d="M204 240q11 10 22 0" stroke="#b46a3c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+            <circle cx="192" cy="234" r="5" fill="#f9a789" opacity=".55"/>
+            <circle cx="238" cy="234" r="5" fill="#f9a789" opacity=".55"/>
+            <!-- arms -->
+            <path d="M160 300c-14 8-20 22-20 38l26 4c2-14 6-24 14-30z" fill="#274a9e"/>
+            <path d="M270 300c14 8 20 22 20 38l-26 4c-2-14-6-24-14-30z" fill="#274a9e"/>
+            <!-- box -->
+            <g>
+              <rect x="152" y="298" width="126" height="62" rx="6" fill="url(#boxG)"/>
+              <rect x="152" y="298" width="126" height="14" rx="6" fill="#b1854e"/>
+              <rect x="209" y="298" width="12" height="62" fill="#e8d9c2" opacity=".85"/>
+              <path d="M152 304l24-14h78l24 14" fill="none" stroke="#a97e49" stroke-width="4" stroke-linejoin="round"/>
+            </g>
+            <!-- hands -->
+            <circle cx="152" cy="330" r="12" fill="#f7c99b"/>
+            <circle cx="278" cy="330" r="12" fill="#f7c99b"/>
+          </g>
+          <!-- speed lines -->
+          <g stroke="#ffd400" stroke-width="6" stroke-linecap="round" opacity=".9">
+            <path d="M30 96h30"/><path d="M22 128h22"/><path d="M382 96h24"/>
+          </g>
+        </svg>
+
+        <!-- 【モック】LINE見積もりフロー（スマホ） -->
+        <div class="phone" aria-label="LINEでのお見積もりの流れ">
+          <div class="phone-screen">
+            <div class="phone-head">LINEで写真を送るだけ！</div>
+            <div class="phone-body">
+              <p class="lead">最短<em>5分</em>でお見積もり</p>
+              <div class="p-step">
+                <span class="n">1</span>
+                <svg class="p-thumb" viewBox="0 0 44 32"><rect width="44" height="32" rx="4" fill="#e8e2d5"/><path d="M7 24h30v-8l-4-6a4 4 0 0 0-4-2H15a4 4 0 0 0-4 2l-4 6z" fill="#a58a63"/><rect x="7" y="16" width="30" height="8" rx="2" fill="#c4a878"/><circle cx="12" cy="13" r="2" fill="#8a7150"/><circle cx="32" cy="13" r="2" fill="#8a7150"/></svg>
+                <span>写真を送る</span>
+              </div>
+              <div class="p-arrow">▼</div>
+              <div class="p-step" style="justify-content:center"><span class="n">2</span><span>お見積もりをお届け</span></div>
+              <div class="p-arrow">▼</div>
+              <div class="p-price"><span class="yen">15,000<small>円〜</small></span></div>
+              <div class="p-arrow">▼</div>
+              <div class="p-step" style="justify-content:center"><span class="n">3</span><span>回収日時を決定！</span></div>
+              <svg viewBox="0 0 48 40" style="width:44px;margin-top:7px"><rect x="2" y="6" width="44" height="32" rx="5" fill="#fff" stroke="#cfd6dd" stroke-width="2"/><rect x="2" y="6" width="44" height="10" rx="5" fill="#2ea44f"/><rect x="10" y="2" width="4" height="8" rx="2" fill="#5b6470"/><rect x="34" y="2" width="4" height="8" rx="2" fill="#5b6470"/><circle cx="33" cy="28" r="9" fill="#2ea44f"/><path d="M28.5 28l3 3 5-5.5" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 料金バナー -->
+    <div class="price-banner">
+      <span class="label">回収費用</span>
+      <span class="price"><span class="num">15,000</span><span class="unit">円〜</span></span>
+      <span class="tax">(税込)</span>
+      <span class="note">※内容により変動いたします</span>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-row">
+      <a class="btn btn-line" href="https://line.me/" target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#06c755" d="M24 9C14.6 9 7 15.2 7 22.9c0 6.9 6.1 12.6 14.3 13.7.6.1 1.3.4 1.5.9.2.4.1 1.1.1 1.6l-.3 1.5c-.1.4-.4 1.7 1.5.9 1.9-.8 10.1-6 13.8-10.2 2.5-2.8 3.1-5.4 3.1-8.4C41 15.2 33.4 9 24 9z"/><path fill="#fff" d="M17.5 26.5h-3.2a.9.9 0 0 1-.9-.9v-6.4a.9.9 0 1 1 1.8 0v5.5h2.3a.9.9 0 1 1 0 1.8zm3.5-.9a.9.9 0 1 1-1.8 0v-6.4a.9.9 0 1 1 1.8 0zm8.2 0a.9.9 0 0 1-1.6.6l-3.3-4.5v3.9a.9.9 0 1 1-1.8 0v-6.4a.9.9 0 0 1 1.6-.6l3.3 4.5v-3.9a.9.9 0 1 1 1.8 0zm5.4-4.1a.9.9 0 1 1 0 1.8h-2.3v1.4h2.3a.9.9 0 1 1 0 1.8h-3.2a.9.9 0 0 1-.9-.9v-6.4a.9.9 0 0 1 .9-.9h3.2a.9.9 0 1 1 0 1.8h-2.3v1.4z"/></svg>
+        <span><span class="t-main">LINEで無料見積もり</span><span class="t-sub">24時間受付中！</span></span>
+      </a>
+      <a class="btn btn-tel" href="tel:0120000000">
+        <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#d7000f" d="M33.9 29.3l-4.1-1.8a2 2 0 0 0-2.3.6l-1.5 1.9a19.4 19.4 0 0 1-8-8l1.9-1.5a2 2 0 0 0 .6-2.3l-1.8-4.1a2 2 0 0 0-2.3-1.1l-3.5.9a2 2 0 0 0-1.5 2.1A24.2 24.2 0 0 0 33 37.6a2 2 0 0 0 2.1-1.5l.9-3.5a2 2 0 0 0-1.1-2.3z" transform="translate(2 -2)"/></svg>
+        <span><span class="t-main">今すぐ電話する</span><span class="t-sub tel-number">0120-000-000</span><span class="t-sub">8:00〜20:00 年中無休</span></span>
+      </a>
+    </div>
+
+    <!-- 4つの強み -->
+    <div class="features">
+      <div class="feature reveal">
+        <svg class="f-icon" viewBox="0 0 64 64"><rect x="4" y="22" width="34" height="24" rx="3" fill="#d7000f"/><path d="M38 28h12l8 9v9H38z" fill="#f08080"/><path d="M38 28h12l8 9h-20z" fill="#e85555"/><circle cx="16" cy="48" r="6" fill="#333"/><circle cx="16" cy="48" r="2.5" fill="#bbb"/><circle cx="48" cy="48" r="6" fill="#333"/><circle cx="48" cy="48" r="2.5" fill="#bbb"/><g stroke="#f5a623" stroke-width="3.5" stroke-linecap="round"><path d="M2 12h12"/><path d="M6 18h10"/></g></svg>
+        <h3>即日回収対応</h3><p>最短30分で到着！</p>
+      </div>
+      <div class="feature reveal">
+        <svg class="f-icon" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="#ffd400"/><circle cx="32" cy="32" r="26" fill="none" stroke="#e0a800" stroke-width="3"/><path d="M24 18l8 12 8-12" stroke="#8a6d00" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 30v16M25 34h14M25 41h14" stroke="#8a6d00" stroke-width="4.5" stroke-linecap="round"/></svg>
+        <h3>明朗会計</h3><p>追加料金なし！</p>
+      </div>
+      <div class="feature reveal">
+        <svg class="f-icon" viewBox="0 0 64 64"><rect x="18" y="6" width="28" height="52" rx="6" fill="#333"/><rect x="21" y="12" width="22" height="38" rx="2" fill="#e9f7ef"/><rect x="21" y="12" width="22" height="9" fill="#06c755"/><circle cx="32" cy="54" r="2.5" fill="#888"/><rect x="25" y="26" width="14" height="10" rx="2" fill="#c4a878"/><path d="M25 33l4-4 3 3 4-5 3 6z" fill="#8a7150"/></svg>
+        <h3>LINEで簡単見積</h3><p>写真を送るだけ！</p>
+      </div>
+      <div class="feature reveal">
+        <svg class="f-icon" viewBox="0 0 64 64"><rect x="6" y="12" width="52" height="46" rx="6" fill="#fff" stroke="#c9d2da" stroke-width="3"/><rect x="6" y="12" width="52" height="14" rx="6" fill="#d7000f"/><rect x="16" y="5" width="6" height="12" rx="3" fill="#5b6470"/><rect x="42" y="5" width="6" height="12" rx="3" fill="#5b6470"/><g fill="#c9d2da"><rect x="14" y="32" width="8" height="7" rx="1.5"/><rect x="28" y="32" width="8" height="7" rx="1.5"/><rect x="14" y="44" width="8" height="7" rx="1.5"/><rect x="28" y="44" width="8" height="7" rx="1.5"/></g><g fill="#f08080"><rect x="42" y="32" width="8" height="7" rx="1.5"/><rect x="42" y="44" width="8" height="7" rx="1.5"/></g></svg>
+        <h3>土日・祝日もOK</h3><p>年中無休で対応！</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ==========================================================
+     回収品目
+     ========================================================== -->
+<section class="section sec-items">
+  <div class="inner">
+    <h2 class="sec-title reveal">どんな不用品でも回収します！</h2>
+    <ul class="items-grid">
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="16" y="6" width="32" height="52" rx="4" fill="#f4f6f8" stroke="#aeb8c2" stroke-width="2.5"/><line x1="16" y1="26" x2="48" y2="26" stroke="#aeb8c2" stroke-width="2.5"/><rect x="20" y="12" width="3.5" height="9" rx="1.5" fill="#aeb8c2"/><rect x="20" y="31" width="3.5" height="13" rx="1.5" fill="#aeb8c2"/></svg>
+        <span class="name">冷蔵庫</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="10" y="8" width="44" height="48" rx="5" fill="#f4f6f8" stroke="#aeb8c2" stroke-width="2.5"/><circle cx="32" cy="36" r="13" fill="#dceefc" stroke="#aeb8c2" stroke-width="2.5"/><path d="M22 36a10 10 0 0 0 20 0" fill="#9fc9ec"/><circle cx="17" cy="14" r="2.5" fill="#aeb8c2"/><rect x="38" y="12" width="12" height="5" rx="2" fill="#aeb8c2"/></svg>
+        <span class="name">洗濯機</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="6" y="12" width="52" height="32" rx="3" fill="#2f3540"/><rect x="10" y="16" width="44" height="24" rx="1.5" fill="#5a7ba6"/><rect x="26" y="46" width="12" height="5" fill="#8a939e"/><rect x="18" y="51" width="28" height="4" rx="2" fill="#666e78"/></svg>
+        <span class="name">テレビ</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="6" y="26" width="52" height="18" rx="5" fill="#c9a37a"/><rect x="10" y="16" width="20" height="16" rx="5" fill="#d9b58c"/><rect x="34" y="16" width="20" height="16" rx="5" fill="#d9b58c"/><rect x="6" y="26" width="8" height="24" rx="3" fill="#b28d63"/><rect x="50" y="26" width="8" height="24" rx="3" fill="#b28d63"/><rect x="12" y="48" width="5" height="6" fill="#8a6d4b"/><rect x="47" y="48" width="5" height="6" fill="#8a6d4b"/></svg>
+        <span class="name">ソファ</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="4" y="34" width="56" height="10" rx="3" fill="#c9a37a"/><rect x="8" y="24" width="18" height="12" rx="5" fill="#fff" stroke="#c3cdd6" stroke-width="2"/><rect x="4" y="20" width="6" height="30" rx="2.5" fill="#8a6d4b"/><rect x="54" y="28" width="6" height="22" rx="2.5" fill="#8a6d4b"/><rect x="8" y="44" width="52" height="4" fill="#b28d63"/></svg>
+        <span class="name">ベッド</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="12" y="8" width="40" height="48" rx="3" fill="#a5824f"/><rect x="16" y="13" width="32" height="12" rx="1.5" fill="#c4a878"/><rect x="16" y="27" width="32" height="12" rx="1.5" fill="#c4a878"/><rect x="16" y="41" width="32" height="11" rx="1.5" fill="#c4a878"/><g fill="#7a5d3d"><rect x="28" y="17" width="8" height="3" rx="1.5"/><rect x="28" y="31" width="8" height="3" rx="1.5"/><rect x="28" y="45" width="8" height="3" rx="1.5"/></g></svg>
+        <span class="name">タンス</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><rect x="8" y="28" width="24" height="24" rx="2" fill="#c4a878"/><rect x="8" y="28" width="24" height="7" fill="#a5824f"/><rect x="32" y="28" width="24" height="24" rx="2" fill="#d0b285"/><rect x="32" y="28" width="24" height="7" fill="#b1905c"/><rect x="20" y="8" width="24" height="20" rx="2" fill="#c4a878"/><rect x="20" y="8" width="24" height="6" fill="#a5824f"/><line x1="32" y1="14" x2="32" y2="28" stroke="#8a7150" stroke-width="2"/></svg>
+        <span class="name">大型家具</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><circle cx="16" cy="42" r="11" fill="none" stroke="#5b6470" stroke-width="3"/><circle cx="48" cy="42" r="11" fill="none" stroke="#5b6470" stroke-width="3"/><path d="M16 42l10-20h16M26 22l12 20M48 42l-8-24h-6M20 18h9" fill="none" stroke="#d7000f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="name">自転車</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><path d="M14 26c-6 6-8 16-4 24a14 14 0 0 0 24 0c2-5 1-11-2-16z" fill="#cfd6dd"/><path d="M22 22l4-8 6 6 4-4 2 8" fill="none" stroke="#8a939e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 30c-5 5-6 13-3 19a11 11 0 0 0 19 0c3-6 2-13-3-19l-4-8-4 5z" fill="#e2e7ec"/><path d="M14 26h20M38 30h14" stroke="#8a939e" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <span class="name">大量のゴミ</span>
+      </li>
+      <li class="item-card reveal">
+        <svg viewBox="0 0 64 64"><g fill="#2ea44f"><circle cx="14" cy="32" r="6"/><circle cx="32" cy="32" r="6"/><circle cx="50" cy="32" r="6"/></g></svg>
+        <span class="name">その他いろいろ！</span>
+      </li>
+    </ul>
+    <p class="items-note reveal"><em>1点から大量の不用品まで</em>、なんでもご相談ください！</p>
+  </div>
+</section>
+
+<!-- ==========================================================
+     回収費用の目安
+     ========================================================== -->
+<section class="section">
+  <div class="inner">
+    <h2 class="sec-title reveal">回収費用の目安</h2>
+    <div class="pricing-grid">
+
+      <div class="price-card kei reveal">
+        <div class="head">軽バン</div>
+        <div class="truck">
+          <svg viewBox="0 0 220 130" role="img" aria-label="軽バン">
+            <rect x="18" y="22" width="150" height="76" rx="12" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <path d="M168 40h20c8 0 14 5 17 12l6 18c2 6 0 12-8 12h-35z" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <path d="M172 44h14c5 0 9 3 11 8l4 12h-29z" fill="#bfe0f5"/>
+            <rect x="30" y="36" width="46" height="26" rx="4" fill="#bfe0f5"/>
+            <rect x="18" y="82" width="185" height="8" fill="#eef1f4"/>
+            <circle cx="55" cy="102" r="15" fill="#3a3f47"/><circle cx="55" cy="102" r="6.5" fill="#c9d2da"/>
+            <circle cx="178" cy="102" r="15" fill="#3a3f47"/><circle cx="178" cy="102" r="6.5" fill="#c9d2da"/>
+            <rect x="86" y="40" width="72" height="20" rx="4" fill="#2ea44f" opacity=".12"/>
+            <text x="122" y="55" text-anchor="middle" font-size="13" font-weight="900" fill="#2ea44f" font-family="'Noto Sans JP',sans-serif">不用品回収</text>
+          </svg>
+        </div>
+        <p class="cap">単品〜少量の回収に</p>
+        <p class="p-label">回収費用</p>
+        <p class="p-val"><span class="num">15,000</span><span class="unit">円〜</span></p>
+        <p class="p-note">※内容により変動いたします</p>
+      </div>
+
+      <div class="price-card t1 reveal">
+        <div class="head">1t トラック</div>
+        <div class="truck">
+          <svg viewBox="0 0 220 130" role="img" aria-label="1tトラック">
+            <rect x="12" y="14" width="130" height="76" rx="6" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <rect x="20" y="24" width="114" height="56" rx="3" fill="#f2f5f7"/>
+            <path d="M142 44h34c7 0 12 4 15 10l7 16c2 6-1 12-8 12h-48z" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <path d="M146 48h26c4 0 8 3 10 7l5 11h-41z" fill="#bfe0f5"/>
+            <rect x="12" y="84" width="190" height="8" fill="#eef1f4"/>
+            <circle cx="52" cy="103" r="15" fill="#3a3f47"/><circle cx="52" cy="103" r="6.5" fill="#c9d2da"/>
+            <circle cx="172" cy="103" r="15" fill="#3a3f47"/><circle cx="172" cy="103" r="6.5" fill="#c9d2da"/>
+            <text x="77" y="58" text-anchor="middle" font-size="14" font-weight="900" fill="#f08300" font-family="'Noto Sans JP',sans-serif">不用品回収</text>
+          </svg>
+        </div>
+        <p class="cap">1K〜1LDKの片付けに</p>
+        <p class="p-label">回収費用</p>
+        <p class="p-val"><span class="num">28,000</span><span class="unit">円〜</span></p>
+        <p class="p-note">※内容により変動いたします</p>
+      </div>
+
+      <div class="price-card t2 reveal">
+        <div class="head">2t トラック</div>
+        <div class="truck">
+          <svg viewBox="0 0 220 130" role="img" aria-label="2tトラック">
+            <rect x="6" y="6" width="140" height="84" rx="6" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <rect x="14" y="16" width="124" height="64" rx="3" fill="#f2f5f7"/>
+            <path d="M146 38h38c8 0 13 4 16 11l8 18c2 6-1 12-8 12h-54z" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+            <path d="M150 42h30c5 0 9 3 11 8l6 13h-47z" fill="#bfe0f5"/>
+            <rect x="6" y="84" width="200" height="8" fill="#eef1f4"/>
+            <circle cx="46" cy="104" r="15" fill="#3a3f47"/><circle cx="46" cy="104" r="6.5" fill="#c9d2da"/>
+            <circle cx="86" cy="104" r="15" fill="#3a3f47"/><circle cx="86" cy="104" r="6.5" fill="#c9d2da"/>
+            <circle cx="180" cy="104" r="15" fill="#3a3f47"/><circle cx="180" cy="104" r="6.5" fill="#c9d2da"/>
+            <text x="76" y="53" text-anchor="middle" font-size="15" font-weight="900" fill="#2e6bd7" font-family="'Noto Sans JP',sans-serif">不用品回収</text>
+          </svg>
+        </div>
+        <p class="cap">2LDK〜丸ごと片付けに</p>
+        <p class="p-label">回収費用</p>
+        <p class="p-val"><span class="num">48,000</span><span class="unit">円〜</span></p>
+        <p class="p-note">※内容により変動いたします</p>
+      </div>
+
+      <div class="pricing-side reveal">
+        <ul class="free-box">
+          <li>お見積もり<em>無料！</em></li>
+          <li>出張費<em>無料！</em></li>
+          <li>キャンセル<em>無料！</em></li>
+          <li>追加料金<em>なし！</em></li>
+        </ul>
+        <a class="consult-box" href="#contact">まずはお気軽に<br>ご相談ください！</a>
+      </div>
+    </div>
+    <p class="pricing-foot-note reveal">※回収する品目や量、作業環境などにより料金が変動する場合がございます。</p>
+  </div>
+</section>
+
+<!-- ==========================================================
+     作業事例 & お客様の声
+     ========================================================== -->
+<section class="section sec-cases">
+  <div class="inner">
+    <div class="cases-wrap">
+
+      <!-- 作業事例 -->
+      <div class="reveal">
+        <h2 class="block-title">作業事例</h2>
+
+        <div class="case-row">
+          <figure class="ba-fig">
+            <span class="tag before">Before</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#d9d2c2"/><rect y="92" width="200" height="48" fill="#b9a184"/><rect x="132" y="14" width="46" height="40" rx="3" fill="#cfe4f0" stroke="#a9b4bd" stroke-width="3"/><line x1="155" y1="14" x2="155" y2="54" stroke="#a9b4bd" stroke-width="3"/><rect x="12" y="60" width="42" height="34" rx="2" fill="#a5824f"/><rect x="12" y="60" width="42" height="9" fill="#8a6d42"/><rect x="60" y="72" width="30" height="24" rx="2" fill="#c4a878" transform="rotate(-8 75 84)"/><rect x="96" y="66" width="36" height="30" rx="2" fill="#8d6e4a"/><path d="M142 96c-8 4-10 14-6 20a10 10 0 0 0 17 0c3-6 1-14-5-20z" fill="#9aa3ad"/><path d="M166 100c-6 3-8 11-5 16a8 8 0 0 0 14 0c2-5 0-12-4-16z" fill="#b9c0c8"/><rect x="26" y="98" width="26" height="18" rx="2" fill="#c4a878" transform="rotate(6 39 107)"/><rect x="70" y="100" width="34" height="14" rx="2" fill="#a5824f" transform="rotate(-5 87 107)"/><path d="M8 30l12-10 4 6-12 10z" fill="#8a939e"/></svg>
+          </figure>
+          <div class="case-arrow"><svg viewBox="0 0 30 30"><path d="M6 4l14 11L6 26z" fill="currentColor"/></svg></div>
+          <figure class="ba-fig">
+            <span class="tag after">After</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#f3efe4"/><rect y="92" width="200" height="48" fill="#d8c7a9"/><rect x="132" y="14" width="46" height="40" rx="3" fill="#e6f4fb" stroke="#c3cdd6" stroke-width="3"/><line x1="155" y1="14" x2="155" y2="54" stroke="#c3cdd6" stroke-width="3"/><g fill="#ffd400"><path d="M30 30l2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5z"/><path d="M96 52l1.8 4.4 4.4 1.8-4.4 1.8-1.8 4.4-1.8-4.4-4.4-1.8 4.4-1.8z"/><path d="M62 100l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g><g stroke="#cabd9d" stroke-width="1.5" opacity=".7"><line x1="0" y1="108" x2="200" y2="108"/><line x1="0" y1="124" x2="200" y2="124"/></g></svg>
+          </figure>
+          <div class="case-info">
+            <span class="type">1K / マンション</span>
+            <span class="fee">回収費用</span>
+            <span class="yen">15,000<small>円</small></span>
+          </div>
+        </div>
+
+        <div class="case-row">
+          <figure class="ba-fig">
+            <span class="tag before">Before</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#d6d0c4"/><rect y="90" width="200" height="50" fill="#b3a08a"/><rect x="18" y="12" width="44" height="38" rx="3" fill="#cfe4f0" stroke="#a9b4bd" stroke-width="3"/><rect x="140" y="12" width="44" height="38" rx="3" fill="#cfe4f0" stroke="#a9b4bd" stroke-width="3"/><rect x="70" y="56" width="60" height="38" rx="3" fill="#8d6e4a"/><rect x="70" y="56" width="60" height="10" fill="#77593a"/><rect x="12" y="64" width="46" height="30" rx="2" fill="#c4a878" transform="rotate(-6 35 79)"/><rect x="140" y="62" width="44" height="32" rx="2" fill="#a5824f" transform="rotate(7 162 78)"/><path d="M40 100c-8 4-11 14-7 21a11 11 0 0 0 19 0c3-7 0-16-6-21z" fill="#9aa3ad"/><path d="M92 104c-7 3-9 12-6 18a9 9 0 0 0 16 0c3-6 1-14-4-18z" fill="#b9c0c8"/><rect x="120" y="102" width="34" height="16" rx="2" fill="#c4a878" transform="rotate(-7 137 110)"/><rect x="158" y="106" width="30" height="14" rx="2" fill="#8d6e4a" transform="rotate(5 173 113)"/></svg>
+          </figure>
+          <div class="case-arrow"><svg viewBox="0 0 30 30"><path d="M6 4l14 11L6 26z" fill="currentColor"/></svg></div>
+          <figure class="ba-fig">
+            <span class="tag after">After</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#f4f0e6"/><rect y="90" width="200" height="50" fill="#dbcbae"/><rect x="18" y="12" width="44" height="38" rx="3" fill="#e6f4fb" stroke="#c3cdd6" stroke-width="3"/><rect x="140" y="12" width="44" height="38" rx="3" fill="#e6f4fb" stroke="#c3cdd6" stroke-width="3"/><g fill="#ffd400"><path d="M100 34l2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5z"/><path d="M42 70l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M150 104l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g><g stroke="#cabd9d" stroke-width="1.5" opacity=".7"><line x1="0" y1="106" x2="200" y2="106"/><line x1="0" y1="122" x2="200" y2="122"/></g></svg>
+          </figure>
+          <div class="case-info">
+            <span class="type">2LDK / マンション</span>
+            <span class="fee">回収費用</span>
+            <span class="yen">38,000<small>円</small></span>
+          </div>
+        </div>
+
+        <div class="case-row">
+          <figure class="ba-fig">
+            <span class="tag before">Before</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#c9c4bb"/><rect y="96" width="200" height="44" fill="#9b968d"/><g stroke="#b5b0a7" stroke-width="3"><line x1="0" y1="18" x2="200" y2="18"/><line x1="0" y1="34" x2="200" y2="34"/><line x1="0" y1="50" x2="200" y2="50"/></g><rect x="10" y="58" width="52" height="38" rx="2" fill="#8d6e4a"/><rect x="10" y="58" width="52" height="10" fill="#77593a"/><rect x="66" y="66" width="44" height="30" rx="2" fill="#a5824f" transform="rotate(-5 88 81)"/><rect x="116" y="60" width="48" height="36" rx="2" fill="#c4a878" transform="rotate(4 140 78)"/><rect x="164" y="70" width="30" height="26" rx="2" fill="#8d6e4a" transform="rotate(-8 179 83)"/><path d="M30 100c-8 4-11 14-7 21a11 11 0 0 0 19 0c3-7 0-16-6-21z" fill="#9aa3ad"/><path d="M80 104c-7 3-9 12-6 18a9 9 0 0 0 16 0c3-6 1-14-4-18z" fill="#b9c0c8"/><path d="M128 102c-7 3-10 13-6 19a10 10 0 0 0 17 0c3-6 1-15-5-19z" fill="#9aa3ad"/><rect x="160" y="104" width="32" height="15" rx="2" fill="#c4a878" transform="rotate(6 176 111)"/></svg>
+          </figure>
+          <div class="case-arrow"><svg viewBox="0 0 30 30"><path d="M6 4l14 11L6 26z" fill="currentColor"/></svg></div>
+          <figure class="ba-fig">
+            <span class="tag after">After</span>
+            <svg viewBox="0 0 200 140"><rect width="200" height="140" fill="#e9e6df"/><rect y="96" width="200" height="44" fill="#b8b3aa"/><g stroke="#d6d2c9" stroke-width="3"><line x1="0" y1="18" x2="200" y2="18"/><line x1="0" y1="34" x2="200" y2="34"/><line x1="0" y1="50" x2="200" y2="50"/></g><g fill="#ffd400"><path d="M56 44l2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5z"/><path d="M140 64l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M96 106l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g></svg>
+          </figure>
+          <div class="case-info">
+            <span class="type">戸建て / 丸ごと片付け</span>
+            <span class="fee">回収費用</span>
+            <span class="yen">78,000<small>円</small></span>
+          </div>
+        </div>
+
+        <p class="cases-note">※実際の作業内容・料金の一例です。</p>
+      </div>
+
+      <!-- お客様の声 -->
+      <div class="reveal">
+        <h2 class="block-title">お客様の声</h2>
+
+        <div class="voice-card">
+          <div class="avatar">
+            <svg viewBox="0 0 58 58"><rect width="58" height="58" fill="#eaf3f8"/><circle cx="29" cy="24" r="11" fill="#f7c99b"/><path d="M18 20c0-7 5-11 11-11s11 4 11 11c0 2-1 3-2 3H20c-1 0-2-1-2-3z" fill="#5a4632"/><path d="M11 58c1-12 8-19 18-19s17 7 18 19z" fill="#e88ca0"/><circle cx="25" cy="24" r="1.6" fill="#3a2a1c"/><circle cx="33" cy="24" r="1.6" fill="#3a2a1c"/><path d="M26 30q3 2.6 6 0" stroke="#b46a3c" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <span class="stars">★★★★★</span><span class="who">30代 女性</span>
+            <p>LINEで写真を送ったらすぐに見積もりがきて、その日に来てくれました！スタッフの方も丁寧で安心できました。</p>
+          </div>
+        </div>
+
+        <div class="voice-card">
+          <div class="avatar">
+            <svg viewBox="0 0 58 58"><rect width="58" height="58" fill="#eef3ea"/><circle cx="29" cy="24" r="11" fill="#f0bd8b"/><path d="M18 21c0-8 5-12 11-12s11 4 11 12l-2-1c-2-1-4-4-4-4-2 2-9 4-14 4z" fill="#33281c"/><path d="M11 58c1-12 8-19 18-19s17 7 18 19z" fill="#5b7fae"/><circle cx="25" cy="24" r="1.6" fill="#3a2a1c"/><circle cx="33" cy="24" r="1.6" fill="#3a2a1c"/><path d="M26 30q3 2.6 6 0" stroke="#a35f34" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <span class="stars">★★★★★</span><span class="who">40代 男性</span>
+            <p>急ぎで片付けたかったので即日対応は本当に助かりました。料金も事前に教えてくれて追加もなく明朗で安心でした。</p>
+          </div>
+        </div>
+
+        <div class="voice-card">
+          <div class="avatar">
+            <svg viewBox="0 0 58 58"><rect width="58" height="58" fill="#f8f0ea"/><circle cx="29" cy="24" r="11" fill="#f7c99b"/><path d="M17 24c-1-9 5-15 12-15s13 6 12 15c-1 6 1 9 2 11h-6l-2-8c-4 1-9 1-12-2l-2 10h-6c1-2 3-5 2-11z" fill="#6b503a"/><path d="M11 58c1-12 8-19 18-19s17 7 18 19z" fill="#d9a441"/><circle cx="25" cy="25" r="1.6" fill="#3a2a1c"/><circle cx="33" cy="25" r="1.6" fill="#3a2a1c"/><path d="M26 31q3 2.6 6 0" stroke="#b46a3c" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <span class="stars">★★★★★</span><span class="who">50代 女性</span>
+            <p>大きなタンスや家電を処分してもらいました。重たいものもテキパキ運んでくれて、あっという間に片付きました！</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     ご利用の流れ
+     ========================================================== -->
+<section class="section">
+  <div class="inner">
+    <h2 class="sec-title reveal">ご利用の流れ</h2>
+    <div class="flow-grid">
+      <div class="flow-step reveal">
+        <h3>LINEで写真を送る</h3>
+        <svg class="f-icon" viewBox="0 0 66 66"><rect x="14" y="4" width="30" height="54" rx="6" fill="#333"/><rect x="17" y="10" width="24" height="40" rx="2" fill="#e9f7ef"/><rect x="17" y="10" width="24" height="8" fill="#06c755"/><rect x="21" y="24" width="16" height="12" rx="2" fill="#c4a878"/><path d="M21 33l4-4 3 3 4-5 5 6z" fill="#8a7150"/><circle cx="52" cy="44" r="12" fill="#ffd400"/><path d="M46.5 44l4 4 7-8" stroke="#8a6d00" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <p>不用品の写真を撮ってLINEで送信！</p>
+      </div>
+      <div class="flow-step reveal">
+        <h3>お見積もり</h3>
+        <svg class="f-icon" viewBox="0 0 66 66"><rect x="14" y="6" width="38" height="54" rx="6" fill="#5b6470"/><rect x="19" y="12" width="28" height="12" rx="2" fill="#cfe8d6"/><g fill="#e9edf1"><rect x="19" y="30" width="8" height="8" rx="2"/><rect x="29" y="30" width="8" height="8" rx="2"/><rect x="39" y="30" width="8" height="8" rx="2"/><rect x="19" y="40" width="8" height="8" rx="2"/><rect x="29" y="40" width="8" height="8" rx="2"/><rect x="19" y="50" width="8" height="6" rx="2"/><rect x="29" y="50" width="8" height="6" rx="2"/></g><g fill="#f5a623"><rect x="39" y="40" width="8" height="16" rx="2"/></g></svg>
+        <p>最短<em>5分</em>でお見積もりをご案内！</p>
+      </div>
+      <div class="flow-step reveal">
+        <h3>回収日時の決定</h3>
+        <svg class="f-icon" viewBox="0 0 66 66"><rect x="6" y="12" width="54" height="48" rx="6" fill="#fff" stroke="#c9d2da" stroke-width="3"/><rect x="6" y="12" width="54" height="14" rx="6" fill="#d7000f"/><rect x="16" y="5" width="6" height="12" rx="3" fill="#5b6470"/><rect x="44" y="5" width="6" height="12" rx="3" fill="#5b6470"/><g fill="#c9d2da"><rect x="14" y="32" width="9" height="8" rx="2"/><rect x="28" y="32" width="9" height="8" rx="2"/><rect x="42" y="32" width="9" height="8" rx="2"/><rect x="14" y="44" width="9" height="8" rx="2"/></g><circle cx="44" cy="49" r="10" fill="#2ea44f"/><path d="M39.5 49l3.5 3.5 6-7" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <p>ご希望の日時をお伝えください！</p>
+      </div>
+      <div class="flow-step reveal">
+        <h3>回収作業</h3>
+        <svg class="f-icon" viewBox="0 0 66 66"><rect x="4" y="26" width="34" height="22" rx="3" fill="#d7000f"/><path d="M38 30h12l8 9v9H38z" fill="#f08080"/><path d="M38 30h12l8 9h-20z" fill="#e85555"/><circle cx="15" cy="50" r="6" fill="#333"/><circle cx="15" cy="50" r="2.5" fill="#bbb"/><circle cx="47" cy="50" r="6" fill="#333"/><circle cx="47" cy="50" r="2.5" fill="#bbb"/><circle cx="24" cy="14" r="6" fill="#f7c99b"/><path d="M20 10c0-4 2-6 4-6s4 2 4 6z" fill="#1f3d85"/><rect x="19" y="20" width="10" height="8" rx="3" fill="#274a9e"/><rect x="27" y="16" width="9" height="8" rx="1.5" fill="#c4a878"/></svg>
+        <p>スタッフが伺い、丁寧に回収します！</p>
+      </div>
+      <div class="flow-step reveal">
+        <h3>お支払い</h3>
+        <svg class="f-icon" viewBox="0 0 66 66"><path d="M8 44c8-4 16-4 22 0l14 2a5 5 0 0 1 4 6l-24 4-18-4z" fill="#f7c99b"/><circle cx="38" cy="22" r="14" fill="#ffd400" stroke="#e0a800" stroke-width="3"/><path d="M33 15l5 8 5-8" stroke="#8a6d00" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 23v8M34 25h8M34 29h8" stroke="#8a6d00" stroke-width="3" stroke-linecap="round"/></svg>
+        <p>作業完了後に現金または各種決済で！</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     対応エリア & FAQ
+     ========================================================== -->
+<section class="section sec-area-faq">
+  <div class="inner">
+    <div class="area-faq-grid">
+
+      <!-- 対応エリア -->
+      <div class="reveal">
+        <h2 class="block-title">対応エリア</h2>
+        <span class="area-head-badge">名古屋市内 全16区対応！</span>
+        <p class="area-lead"><em>愛知県全域</em>も対応可能！</p>
+        <p class="area-cities">春日井市・豊田市・岡崎市・一宮市・<br>瀬戸市・半田市・刈谷市・豊橋市 など</p>
+        <div class="area-map">
+          <!-- 【イラスト】名古屋市16区 デフォルメマップ -->
+          <svg viewBox="0 0 440 400" role="img" aria-label="名古屋市対応エリアマップ">
+            <defs>
+              <style>.wd{stroke:#fff;stroke-width:3}.wl{font:900 13px 'Noto Sans JP',sans-serif;fill:#1e4620;text-anchor:middle}</style>
+            </defs>
+            <rect class="wd" x="196" y="18" width="92" height="70" rx="14" fill="#bfe3b2"/><text class="wl" x="242" y="58">北</text>
+            <rect class="wd" x="292" y="10" width="110" height="86" rx="14" fill="#cdeabf" transform="rotate(4 347 53)"/><text class="wl" x="347" y="58">守山</text>
+            <rect class="wd" x="108" y="40" width="86" height="88" rx="14" fill="#cdeabf"/><text class="wl" x="151" y="90">西</text>
+            <rect class="wd" x="196" y="92" width="70" height="56" rx="12" fill="#a8d99a"/><text class="wl" x="231" y="126">東</text>
+            <rect class="wd" x="270" y="100" width="86" height="70" rx="14" fill="#bfe3b2"/><text class="wl" x="313" y="140">千種</text>
+            <rect class="wd" x="358" y="104" width="72" height="90" rx="14" fill="#cdeabf"/><text class="wl" x="394" y="153">名東</text>
+            <rect class="wd" x="118" y="132" width="76" height="72" rx="14" fill="#bfe3b2"/><text class="wl" x="156" y="172">中村</text>
+            <rect class="wd" x="198" y="152" width="64" height="56" rx="12" fill="#8fce7e"/><text class="wl" x="230" y="185">中</text>
+            <rect class="wd" x="266" y="174" width="72" height="58" rx="12" fill="#a8d99a"/><text class="wl" x="302" y="208">昭和</text>
+            <rect class="wd" x="342" y="198" width="88" height="74" rx="14" fill="#bfe3b2"/><text class="wl" x="386" y="239">天白</text>
+            <rect class="wd" x="94" y="208" width="92" height="84" rx="14" fill="#cdeabf"/><text class="wl" x="140" y="254">中川</text>
+            <rect class="wd" x="190" y="212" width="60" height="52" rx="12" fill="#bfe3b2"/><text class="wl" x="220" y="242">熱田</text>
+            <rect class="wd" x="254" y="236" width="70" height="58" rx="12" fill="#8fce7e"/><text class="wl" x="289" y="269">瑞穂</text>
+            <rect class="wd" x="70" y="296" width="112" height="80" rx="14" fill="#a8d99a"/><text class="wl" x="126" y="340">港</text>
+            <rect class="wd" x="186" y="272" width="82" height="72" rx="14" fill="#cdeabf"/><text class="wl" x="227" y="312">南</text>
+            <rect class="wd" x="272" y="298" width="118" height="80" rx="14" fill="#8fce7e" transform="rotate(-4 331 338)"/><text class="wl" x="331" y="342">緑</text>
+            <!-- callout -->
+            <g>
+              <circle cx="70" cy="112" r="56" fill="#2ea44f"/>
+              <text x="70" y="96" text-anchor="middle" font-size="13" font-weight="900" fill="#fff" font-family="'Noto Sans JP',sans-serif">その他の地域も</text>
+              <text x="70" y="114" text-anchor="middle" font-size="13" font-weight="900" fill="#fff" font-family="'Noto Sans JP',sans-serif">お気軽に</text>
+              <text x="70" y="132" text-anchor="middle" font-size="13" font-weight="900" fill="#fff" font-family="'Noto Sans JP',sans-serif">ご相談ください!</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="reveal">
+        <h2 class="block-title">よくあるご質問</h2>
+
+        <details class="faq-item" open>
+          <summary class="faq-q"><span class="qa-mark q">Q</span>追加料金はかかりますか？</summary>
+          <div class="faq-a"><span class="qa-mark a">A</span><span>お見積もり後の追加料金は一切ありません。ご安心ください。</span></div>
+        </details>
+
+        <details class="faq-item" open>
+          <summary class="faq-q"><span class="qa-mark q">Q</span>土日や祝日でも対応してもらえますか？</summary>
+          <div class="faq-a"><span class="qa-mark a">A</span><span>はい、土日・祝日も休まず対応しております。</span></div>
+        </details>
+
+        <details class="faq-item" open>
+          <summary class="faq-q"><span class="qa-mark q">Q</span>夜間でも対応してもらえますか？</summary>
+          <div class="faq-a"><span class="qa-mark a">A</span><span>はい、夜間の回収も可能です。まずはご相談ください。</span></div>
+        </details>
+
+        <details class="faq-item" open>
+          <summary class="faq-q"><span class="qa-mark q">Q</span>キャンセルは無料ですか？</summary>
+          <div class="faq-a"><span class="qa-mark a">A</span><span>はい、キャンセル料は無料です。安心してご相談ください。</span></div>
+        </details>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     FOOTER CTA
+     ========================================================== -->
+<section class="footer-cta" id="contact">
+  <div class="inner">
+    <div class="footer-grid">
+      <div class="footer-left reveal">
+        <svg class="footer-van" viewBox="0 0 160 110" role="img" aria-label="回収車">
+          <rect x="6" y="18" width="106" height="56" rx="10" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+          <path d="M112 32h16c6 0 10 4 12 9l5 13c2 5-1 9-6 9h-27z" fill="#fff" stroke="#c3cdd6" stroke-width="3"/>
+          <path d="M115 36h11c4 0 7 2 8 6l4 9h-23z" fill="#bfe0f5"/>
+          <rect x="14" y="28" width="34" height="20" rx="4" fill="#bfe0f5"/>
+          <circle cx="36" cy="78" r="12" fill="#3a3f47"/><circle cx="36" cy="78" r="5" fill="#c9d2da"/>
+          <circle cx="124" cy="78" r="12" fill="#3a3f47"/><circle cx="124" cy="78" r="5" fill="#c9d2da"/>
+          <text x="80" y="60" text-anchor="middle" font-size="11" font-weight="900" fill="#d7000f" font-family="'Noto Sans JP',sans-serif">不用品回収</text>
+        </svg>
+        <div class="footer-copy">
+          <h2>名古屋の不用品回収なら<br>お任せください！</h2>
+          <div class="footer-badges">
+            <span>即日回収</span><span>明朗会計</span><span>LINEで簡単見積</span>
+          </div>
+          <p class="footer-price">
+            <span class="lbl">回収費用</span>
+            <span class="num">15,000</span><span class="unit">円〜</span>
+            <span class="tax">(税込)</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer-right reveal">
+        <a class="btn btn-line" href="https://line.me/" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#06c755" d="M24 9C14.6 9 7 15.2 7 22.9c0 6.9 6.1 12.6 14.3 13.7.6.1 1.3.4 1.5.9.2.4.1 1.1.1 1.6l-.3 1.5c-.1.4-.4 1.7 1.5.9 1.9-.8 10.1-6 13.8-10.2 2.5-2.8 3.1-5.4 3.1-8.4C41 15.2 33.4 9 24 9z"/><path fill="#fff" d="M17.5 26.5h-3.2a.9.9 0 0 1-.9-.9v-6.4a.9.9 0 1 1 1.8 0v5.5h2.3a.9.9 0 1 1 0 1.8zm3.5-.9a.9.9 0 1 1-1.8 0v-6.4a.9.9 0 1 1 1.8 0zm8.2 0a.9.9 0 0 1-1.6.6l-3.3-4.5v3.9a.9.9 0 1 1-1.8 0v-6.4a.9.9 0 0 1 1.6-.6l3.3 4.5v-3.9a.9.9 0 1 1 1.8 0zm5.4-4.1a.9.9 0 1 1 0 1.8h-2.3v1.4h2.3a.9.9 0 1 1 0 1.8h-3.2a.9.9 0 0 1-.9-.9v-6.4a.9.9 0 0 1 .9-.9h3.2a.9.9 0 1 1 0 1.8h-2.3v1.4z"/></svg>
+          <span><span class="t-main">LINEで無料見積もり</span><span class="t-sub">24時間受付中！</span></span>
+        </a>
+        <a class="btn btn-tel" href="tel:0120000000">
+          <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#d7000f" d="M33.9 29.3l-4.1-1.8a2 2 0 0 0-2.3.6l-1.5 1.9a19.4 19.4 0 0 1-8-8l1.9-1.5a2 2 0 0 0 .6-2.3l-1.8-4.1a2 2 0 0 0-2.3-1.1l-3.5.9a2 2 0 0 0-1.5 2.1A24.2 24.2 0 0 0 33 37.6a2 2 0 0 0 2.1-1.5l.9-3.5a2 2 0 0 0-1.1-2.3z" transform="translate(2 -2)"/></svg>
+          <span><span class="t-main">今すぐ電話する</span><span class="t-sub tel-number">0120-000-000</span><span class="t-sub">8:00〜20:00 年中無休</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="copyright">© 名古屋不用品回収センター（サンプルLP）</footer>
+
+<!-- ==========================================================
+     STICKY CTA (mobile)
+     ========================================================== -->
+<div class="sticky-cta" id="stickyCta">
+  <a class="btn btn-line" href="https://line.me/" target="_blank" rel="noopener">
+    <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#06c755" d="M24 9C14.6 9 7 15.2 7 22.9c0 6.9 6.1 12.6 14.3 13.7.6.1 1.3.4 1.5.9.2.4.1 1.1.1 1.6l-.3 1.5c-.1.4-.4 1.7 1.5.9 1.9-.8 10.1-6 13.8-10.2 2.5-2.8 3.1-5.4 3.1-8.4C41 15.2 33.4 9 24 9z"/></svg>
+    <span><span class="t-main">LINE見積もり</span><span class="t-sub">24時間受付</span></span>
+  </a>
+  <a class="btn btn-tel" href="tel:0120000000">
+    <svg class="icon" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#fff"/><path fill="#d7000f" d="M33.9 29.3l-4.1-1.8a2 2 0 0 0-2.3.6l-1.5 1.9a19.4 19.4 0 0 1-8-8l1.9-1.5a2 2 0 0 0 .6-2.3l-1.8-4.1a2 2 0 0 0-2.3-1.1l-3.5.9a2 2 0 0 0-1.5 2.1A24.2 24.2 0 0 0 33 37.6a2 2 0 0 0 2.1-1.5l.9-3.5a2 2 0 0 0-1.1-2.3z" transform="translate(2 -2)"/></svg>
+    <span><span class="t-main">電話する</span><span class="t-sub">8:00〜20:00</span></span>
+  </a>
+</div>
+
+<script>
+// スクロールで要素をふわっと表示
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('is-visible')});return}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('is-visible');io.unobserve(en.target)}
+    });
+  },{threshold:.12,rootMargin:'0px 0px -30px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+// ヒーローを過ぎたらモバイル追従CTAを表示
+(function(){
+  var bar=document.getElementById('stickyCta');
+  var hero=document.querySelector('.hero');
+  if(!bar||!hero)return;
+  var toggle=function(){
+    if(window.scrollY>hero.offsetHeight*0.55){bar.classList.add('is-shown')}
+    else{bar.classList.remove('is-shown')}
+  };
+  window.addEventListener('scroll',toggle,{passive:true});
+  toggle();
+})();
+</script>
+</body>
+</html>
