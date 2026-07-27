@@ -1,8 +1,9 @@
 # Netlify 設定ファイル
-# このリポジトリを Netlify に連携すると自動的にこの設定が使われます
+# このブランチ（claude/lp-creation-iy9veb）では不用品回収LP（lp/）だけを公開します
+# ※ main ブランチの netlify.toml は publish = "." のままなので、奨学金ページ側には影響しません
 
 [build]
-  publish = "."
+  publish = "lp"
 
 [[headers]]
   for = "/*"
