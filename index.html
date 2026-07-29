@@ -952,6 +952,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <style>
 /* === 最終UIチェック(3名)反映：モバイル最適化＆コントラスト改善 === */
+html{scroll-behavior:smooth}
 #content div.sch-feat .sf-lbl{color:#8a6a3e!important}
 #content div.sch-feat .sf-body b{color:#8a6210!important}
 .sch-cmp .no{color:#7d7d7d!important}
@@ -960,6 +961,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 @media screen and (max-width:768px){
   .sch-cta-sp{width:100vw!important;right:auto!important;box-sizing:border-box!important}
   #content .sch-ex .sx-main{font-size:32px!important}
+  #content .sch-feat .sf-hero{font-size:26px!important}
   .school-card .loc{grid-column:2!important}
   .school-card .school-link{min-height:44px!important;padding:12px 4px!important;font-size:12px!important;display:flex!important;align-items:center!important;justify-content:flex-end!important}
   .f-copyright{margin-bottom:84px!important}
@@ -1048,7 +1050,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="tit_bold">当院の奨学金制度で<br class="sp">歯科衛生士の<br class="sp">国家資格取得を目指しませんか？</p>
 
           <style>
-          .sch-ex{background:#fff;border:1px solid #e3d3b2;border-radius:14px;padding:44px 30px;text-align:center;margin:24px 0 10px;position:relative;box-shadow:0 6px 26px rgba(120,90,30,.08)}
+          .sch-ex{display:block;background:#fff;border:1px solid #e3d3b2;border-radius:14px;padding:40px 30px 30px;text-align:center;margin:24px 0 10px;position:relative;box-shadow:0 6px 26px rgba(120,90,30,.08);text-decoration:none;cursor:pointer;transition:box-shadow .2s,transform .2s}
+          a.sch-ex:hover{box-shadow:0 12px 32px rgba(120,90,30,.17);transform:translateY(-2px)}
           .sch-ex::before{content:"";position:absolute;inset:10px;border:1px solid #ecdfc4;border-radius:9px;pointer-events:none}
           #content .sch-ex .sx-lead{color:#8a7355!important;font-size:13px;letter-spacing:.14em;margin:0 0 10px;position:relative}
           #content .sch-ex .sx-main{color:#b8860b!important;font-family:"Hiragino Mincho ProN","Yu Mincho","游明朝",serif;font-size:42px;font-weight:bold;line-height:1.2;letter-spacing:.04em;margin:0;position:relative}
@@ -1056,13 +1059,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           .sch-ex .sx-rule::before,.sch-ex .sx-rule::after{content:"";width:46px;height:1px;background:#d9c39a}
           .sch-ex .sx-dia{width:7px;height:7px;background:#cbab6b;transform:rotate(45deg);flex:0 0 auto}
           #content .sch-ex .sx-sub{color:#5a4a38!important;font-size:13.5px;line-height:1.7;margin:0;position:relative}
+          #content .sch-ex .sx-more{display:inline-block;margin-top:18px;color:#b8860b!important;font-size:12.5px;letter-spacing:.08em;position:relative;border-bottom:1px solid #e0cfa4;padding-bottom:2px}
           </style>
-          <div class="sch-ex">
+          <a href="#feature" class="sch-ex">
             <p class="sx-lead">卒業後、当院で勤務すれば</p>
             <p class="sx-main">5年で全額免除</p>
             <span class="sx-rule"><span class="sx-dia"></span></span>
             <p class="sx-sub">奨学金の返済は、ゼロになります。<br class="sp">（1ヶ月＝1万円のみなし返済＋5年勤続で全額免除）</p>
-          </div>
+            <span class="sx-more">くわしく見る ▼</span>
+          </a>
         </div>
       </div>
 
@@ -1330,20 +1335,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           .sch-support.s3 .sch-support-lbl{background:#b8860b}
           </style>
           <style>
-          .sch-feat{background:#fffdf8;border:1px solid #e6d8bd;border-radius:14px;padding:30px 30px;margin-bottom:16px;position:relative;box-shadow:0 5px 22px rgba(120,90,30,.07)}
+          .sch-feat{background:#fffdf8;border:1px solid #e6d8bd;border-radius:14px;padding:38px 30px 32px;margin-bottom:16px;position:relative;box-shadow:0 5px 22px rgba(120,90,30,.07);text-align:center;scroll-margin-top:80px}
           .sch-feat::before{content:"";position:absolute;inset:8px;border:1px solid #f0e6d0;border-radius:9px;pointer-events:none}
-          #content .sch-feat .sf-ttl{color:#44290e!important;font-family:"Hiragino Mincho ProN","Yu Mincho","游明朝",serif;font-size:20px;font-weight:bold;line-height:1.5;margin:0 0 16px;padding-bottom:14px;border-bottom:1px solid #ece0c8;position:relative}
-          .sch-feat .sf-ttl::after{content:"";position:absolute;left:0;bottom:-1px;width:52px;height:2px;background:#c9a96a}
-          #content .sch-feat .sf-body{color:#4a4a4a!important;font-size:14.5px;line-height:1.95;margin:0 0 18px;position:relative}
+          #content .sch-feat .sf-eyebrow{color:#a0894f!important;font-size:12.5px;letter-spacing:.14em;margin:0 0 14px;position:relative}
+          #content .sch-feat .sf-hero{color:#44290e!important;font-family:"Hiragino Mincho ProN","Yu Mincho","游明朝",serif;font-size:33px;font-weight:bold;line-height:1.35;letter-spacing:.03em;margin:0;position:relative}
+          #content .sch-feat .sf-hero .g{color:#b8860b!important}
+          .sch-feat .sf-rule{display:flex;align-items:center;justify-content:center;gap:12px;margin:16px 0 18px;position:relative}
+          .sch-feat .sf-rule::before,.sch-feat .sf-rule::after{content:"";width:44px;height:1px;background:#d9c39a}
+          .sch-feat .sf-dia{width:7px;height:7px;background:#cbab6b;transform:rotate(45deg);flex:0 0 auto}
+          #content .sch-feat .sf-body{color:#4a4a4a!important;font-size:14px;line-height:1.9;margin:0 0 18px;position:relative}
           #content .sch-feat .sf-body b{color:#8a6210!important;font-weight:bold}
+          #content .sch-feat .sf-meta{display:inline-block;text-align:left;position:relative}
           #content .sch-feat .sf-row{font-size:13.5px;line-height:1.8;margin:0 0 8px;color:#3a2c1e;position:relative}
           #content div.sch-feat .sf-lbl{display:inline-block;background:#f5eede;color:#8a6a3e!important;font-weight:bold;font-size:12px;letter-spacing:.04em;padding:4px 12px;border-radius:6px;margin-right:12px;min-width:76px;text-align:center}
           </style>
           <h4>当院の奨学金の特長</h4>
           <p>とみ歯科クリニックの奨学金は、医院独自の制度です。学費（実費）の負担を軽くしながら、安心して歯科衛生士を目指せます。</p>
 
-          <div class="sch-feat">
-            <p class="sf-ttl">学費（実費）を貸与 ＋ 5年勤務で全額免除</p>
+          <div class="sch-feat" id="feature">
+            <p class="sf-eyebrow">医院独自の奨学金制度</p>
+            <p class="sf-hero">5年勤務で、<br class="sp"><span class="g">全額免除</span></p>
+            <span class="sf-rule"><span class="sf-dia"></span></span>
             <p class="sf-body">学費（実費）を貸与します。常勤5年間（60ヶ月）の勤務で、借りた金額に関係なく<b>全額返済免除</b>となります。</p>
             <div class="sf-meta">
               <p class="sf-row"><span class="sf-lbl">対象</span>学生</p>
